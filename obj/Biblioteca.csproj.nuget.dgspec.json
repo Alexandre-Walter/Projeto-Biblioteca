@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "c:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Alexandre Walter\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -45,6 +45,8 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0, )"
             },
