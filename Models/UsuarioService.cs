@@ -1,23 +1,32 @@
+using System.Collections.Generic;
 using System;
 using System.Linq;
-using System.Collections.Generic;
+
 
 namespace Biblioteca.Models
 {
     public class UsuarioService
     {
-       public List<Usuario> Listar(){
-           using(BibliotecaContext bc = new BibliotecaContext()){
+        
+        public List<Usuario> Listar(){
+
+
+            using(BibliotecaContext bc = new BibliotecaContext()){
                 return bc.Usuarios.ToList();
             }
 
+
+
         }
-        public Usuario Listar (int id){
+
+        public Usuario Listar(int id){
+
             using(BibliotecaContext bc = new BibliotecaContext()){
                 return bc.Usuarios.Find(id);
             }
 
-        }
+
+        } 
 
         public void incluirUsuario(Usuario novoUser){
 
@@ -26,11 +35,12 @@ namespace Biblioteca.Models
                 bc.SaveChanges();
             }
 
+
         }
 
-        public void editarUsuario(Usuario userEditado) {
+        public void editarUsuario(Usuario userEditado){
+
             using(BibliotecaContext bc = new BibliotecaContext()){
-                
                 Usuario u = bc.Usuarios.Find(userEditado.Id);
 
                 u.Login = userEditado.Login;
@@ -41,6 +51,7 @@ namespace Biblioteca.Models
                 bc.SaveChanges();
             }
 
+
         }
 
         public void excluirUsuario(int id){
@@ -49,6 +60,10 @@ namespace Biblioteca.Models
                 bc.Usuarios.Remove(bc.Usuarios.Find(id));
                 bc.SaveChanges();
             }
+
+
         }
+
+
     }
 }

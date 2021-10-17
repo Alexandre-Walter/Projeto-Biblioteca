@@ -851,11 +851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "c:\\Users\\Alexandre Walter\\Desktop\\UC 07 at2\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "c:\\Users\\Alexandre Walter\\Desktop\\UC 07 at2\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\Alexandre Walter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexandre Walter\\Desktop\\Biblioteca\\obj\\",
+      "outputPath": "c:\\Users\\Alexandre Walter\\Desktop\\UC 07 at2\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
